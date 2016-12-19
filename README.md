@@ -1,9 +1,9 @@
 # sample-dnca2s
 
 ## Purpose
-The purpose of this tutorial has several important parts:
+The purpose of this sample has several important parts:
   * It shows the Token Based Authentication using OWIN middleware pipeline with ASP.NET Core Web Api.
-  * It also provides the perfect playground to experience the new technologies
+  * It provides the perfect playground to experience new technologies
 
 ## Technical details
 We are going to use different tools and technologies. The system will be split into two:
