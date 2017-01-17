@@ -13,7 +13,7 @@ Below is a list of `Windows 10` steps to help setup each application. Please let
 - open cmd
 - run `dotnet restore` - restores the NuGet packages(everything is NuGet based now)
 - run `dotnet build` - builds the solution(new cli command for building .net core apps)
-- run `dotnet run` - runs the application under `http://localhost:5000`(url is also displayed in the cmd)
+- run `dotnet run` - runs the application under `http://localhost:6000`(url is also displayed in the cmd)
 
 ### Web
 - navigate to `/src/Web`
