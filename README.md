@@ -5,6 +5,16 @@ The purpose of this sample has several important parts:
   * It shows the Token Based Authentication using OWIN middleware pipeline with ASP.NET Core Web Api.
   * It provides the perfect playground to experience new technologies
 
+## Setup
+Below is a list of `Windows 10` steps to help setup each application. Please let us know if these are different on `Mac` or `Linux` and we'll update accordingly.
+
+### Api
+- navigate to `/src/Api`
+- open cmd
+- run `dotnet restore` - restores the NuGet packages(everything is NuGet based now)
+- run `dotnet build` - builds the solution(new cli command for building .net core apps)
+- run `dotnet run` - runs the application under `http://localhost:5000`(url is also displayed in the cmd)
+
 ## Technical details
 We are going to use different tools and technologies. The system will be split into two:
   * Api: a RESTFUL Api providing the data(we are going to secure this)
