@@ -7,5 +7,5 @@ sudo: required
 
 script:
     - dotnet restore
-    - dotnet build src/Dyson.Api
-    - dotnet build src/Dyson.Web
+    - dotnet build src/Api/Dyson.Api
+    - dotnet build src/Web/Dyson.Web
