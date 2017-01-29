@@ -1,1 +1,11 @@
+language: csharp
+mono: none
+dotnet: 1.0.0-preview2-1-003177
+solution: Dyson.sln
+dist: trusty
+sudo: required
 
+script:
+    - dotnet restore
+    - dotnet build src/Dyson.Api
+    - dotnet build src/Dyson.Web
