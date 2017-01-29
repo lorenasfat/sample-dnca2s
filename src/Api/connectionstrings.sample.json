@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=*\\SQLEXPRESS2012;Initial Catalog=Dyson;Integrated Security=True"
+  }
+}
