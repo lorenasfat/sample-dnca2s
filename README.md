@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/QubizSolutions/sample-dnca2s.svg?branch=master)](https://travis-ci.org/QubizSolutions/sample-dnca2s)
 # sample-dnca2s
 
 ## Purpose
