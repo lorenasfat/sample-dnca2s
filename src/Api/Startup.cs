@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using MySQL.Data.Entity.Extensions;
 
 namespace Dyson.Api
 {
@@ -30,7 +31,7 @@ namespace Dyson.Api
             string sqlConnectionString = Configuration.GetConnectionString("DefaultConnection");
 
             services.AddEntityFramework();
-            services.AddDbContext<Context.ApplicationDbContext>(options => options.UseSqlServer(sqlConnectionString));
+            services.AddDbContext<Context.ApplicationDbContext>(options => options.UseMySQL(sqlConnectionString));
 
             services
                 .AddIdentity<IdentityUser, IdentityRole>()
