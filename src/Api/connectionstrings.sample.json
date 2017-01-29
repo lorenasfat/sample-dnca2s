@@ -1,5 +1,5 @@
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Data Source=*\\SQLEXPRESS2012;Initial Catalog=Dyson;Integrated Security=True"
+    "DefaultConnection": "server=localhost;userid=<user_name>;pwd=<password>;port=3306;database=dyson;sslmode=none;"
   }
 }
