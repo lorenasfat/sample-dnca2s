@@ -46,3 +46,22 @@ Source code of the **OWIN middleware** aka ***Katana Project*** can be found on 
  * MsSql Server
  * Entity Framework Core
  * Bootstrap
+
+## Goals
+Below is a narrow list of goals for certain areas
+
+### Development:
+ * Experience .net core
+ * Experience .net core with mysql(we want to move towards free-ware)
+ * Experience .net core integration with OWIN
+ * Experience .net core integration with Angular 2/4
+
+### Deployment:
+ * Experience .net core on linux & windows => Deploy on both Windows & Linux machines
+ * Experience .net core in Docker => Host Docker in both Windows & Linux. Deploy to Docker.
+
+### Features:
+ * Multi-tenant application
+ * Google OAuth Authentication(using OWIN)
+ * Resource management(any kind of resource, since in REST everything is a resource)
+ * Role management(Admin and User should sufice)
